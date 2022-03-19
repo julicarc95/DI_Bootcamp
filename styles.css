@@ -1,0 +1,80 @@
+  header{background-color: lightblue;
+    width: 100%;
+    height: 80px;
+    margin: 0px;
+}
+h1 {
+  color:green;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: Arial;
+  padding: 15px;
+}
+#foto{
+  float: left;
+  margin: 0 0 0 0px;
+}
+  .container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  h2{color:green;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Arial;
+   }
+   h4{color:green;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial;
+   }
+.hola{
+  text-align: center;
+  background-color: bisque;
+  margin-right: 750px;
+  margin-left: 750px;
+}
+  .pmain{
+    color: blue;
+    border-color: blue;
+    border-style: solid;
+    padding: 100 50 100 50;
+    font-weight: bold;
+    font-size: 75px;
+    font-family: Arial;
+  }
+  footer{
+    background-color: lightblue;
+    color: green;
+    margin-bottom: 0px;
+  }
+.column {
+  float: left;
+  width: 30%;
+  padding: 25px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
